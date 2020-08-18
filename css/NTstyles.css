@@ -87,7 +87,7 @@ li a img {
 }
 
 div.image-container {
-    background-image: url("../resources/trip_photos/DisneyWorld_2018/P1122682.jpg");
+    background-image: url("../usedresources/P1122682.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -533,7 +533,7 @@ div.past-trip {
 
 /*get in touch*/
 .main-container {
-    background-image: url(../resources/trip_photos/Disneyland_2019/DSC00171.jpg);
+    background-image: url('../usedresources/DSC00171.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -784,7 +784,7 @@ img:hover {
 }
 
 #sedonatrip {
-    background-image: url(../resources/trip_photos/Arizona_2018/image\ \(9\).jpg);
+    background-image: url('../usedresources/image\ \(9)\.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 45em;
@@ -793,7 +793,7 @@ img:hover {
 }
 
 #cruisetrip {
-    background-image: url(../resources/trip_photos/DisneyWorld_2018_2/P1133009.jpg);
+    background-image: url('../usedresources/P1133009.jpg');;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -813,7 +813,7 @@ img:hover {
 }
 
 #wdw2017trip {
-    background-image: url(../resources/trip_photos/DisneyWorld_2018/P1122754.jpg);
+    background-image: url('../usedresources/P1122754.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -824,7 +824,7 @@ img:hover {
 }
 
 #dl2019trip {
-    background-image: url(../resources/trip_photos/Disneyland_2019/DSC00138.jpg);
+    background-image: url('../usedresources/DSC00138.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1035,7 +1035,7 @@ a.wipe {
 /*landing page*/
 
 .landingpage-container {
-    background-image: url('../resources/trip_photos/DisneyWorld_2018_2/P1122993.jpg');
+    background-image: url('../usedresources/P1122993.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
