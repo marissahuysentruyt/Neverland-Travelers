@@ -61,6 +61,7 @@ div.image {
     padding-left: 0.75em;
     padding-right: 0.75em;
     box-sizing: border-box;
+    color: #472a82;
 }
 
 ul {
@@ -69,6 +70,7 @@ ul {
 
 li a {
     text-decoration: none;
+    color: #472a82;
 }
 
 .button#aboutus,
@@ -468,6 +470,7 @@ div.past-trip {
 .footer-nav li.button {
     border-radius: 0.6rem;
     box-sizing: border-box;
+    color: #472a82;
     transition-duration: all 1s ease-in;
     margin-left: 0.3em;
     margin-right: 0.3em;
@@ -478,6 +481,7 @@ div.past-trip {
 .footer-nav li a {
     padding-left: 0.3em;
     padding-right: 0.3em;
+    color: #472a82;
 }
 
 
