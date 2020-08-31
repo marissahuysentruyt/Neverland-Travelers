@@ -4,11 +4,11 @@
     <title>The Neverland Travelers</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <link href="./css/landingpage.css" type="text/css" rel="stylesheet">
+    <link href="./css/NTstyles.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./resources/starslogo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
     <div class="heading-container">
         <div class="navbar">
@@ -16,35 +16,70 @@
             <nav>
                 <ul>
                     <div class="left">
-                        <li class="button" id="aboutus"><a href="#" class="wipe">About Us</a></li>
-                        <li class="button" id="trips"><a href="#" class="wipe">Trips</a></li>
+                        <li class="button" id="aboutus"><a href="./NTaboutus.html" class="wipe">About Us</a></li>
+                        <li class="button" id="trips"><a href="./NTtrips.html" class="wipe">Trips</a></li>
                     </div>
                     <div class="image">
-                        <li><a href="#"><img src="./usedresources/neverlandtravelerslogo.png"></a></li>
+                        <li><a href="./index.html"><img src="./usedresources/neverlandtravelerslogo.png"></a></li>
                     </div>
                     <div class="right">
-                        <li class="button" id="photos"><a href="#" class="wipe">Photos</a></li>
-                        <li class="button" id="whatsnext"><a href="#" class="wipe">What's Next</a></li>
+                        <li class="button" id="photos"><a href="./NTphotos.html" class="wipe">Photos</a></li>
+                        <li class="button" id="whatsnext"><a href="./NTwhatsnext.html" class="wipe">What's Next</a></li>
                     </div>    
                 </ul>
             </nav>
         </div>
     </div>
-
-    <div class="landingpage-container">
-        <div class="color-overlay">
-            <h1>We (almost) have a website!</h1>
-
-            <p>We're finally getting a website up and running! Thanks for sticking with us, people! Jeffrey and I are very excited to share it 
-            with you. We hope to spread a little more positivity and laughter with the world. We all know we need that right now!
-            <br>
-            <br>
-            The site goes live at the end of the month. Tell your friends! </p>
+        <!--big background image, logo and tagline above-->
+        <div class="image-container">
+            <div class="name">
+                <h3>Neverland Travelers</h3>
+            </div>
+            <div class="tagline">
+                <p><mark>Just a couple of kids who love to travel!</mark></p>
+            </div>
         </div>
-    </div>
+
+        <!--all link to the trips page. can I make the link go directly to its "blog?"-->
+        <div class="past-trips">
+            <div class="trip-section">
+                <a href="NTtrips.html">Relive some of our trips!</a>
+            </div>
+
+                <div class="relive">
+                <div id="sedona">
+                    <a href="./NTtrips.html/#sedonatrip">
+                        <img src="./usedresources/image (8).png">
+                        <p>Sedona 2018</p>
+                    </a>
+                </div>
+
+                <div id="wdw2017">
+                    <a href="#wdw2017trip">
+                        <img src="./usedresources/P1133131.png">
+                        <p>Walt Disney World 2017</p>
+                    </a>
+                </div>
+
+                
+                <div id="dl2019">
+                    <a href="#dl2019trip">
+                        <img src="./usedresources/DSC00015.png">
+                        <p>Disneyland 2019</p>
+                    </a>
+                </div>
 
 
-
+                <div id="austin">
+                    <a href="#">
+                        <img src="./usedresources/6D551E69-AD39-470D-A5C4-69AE0150A6CF.png">
+                        <p>Austin 2019</p>
+                    </a>
+                </div>
+            </div>
+            </div> 
+        
+<!--background color-->
     <div class="footer">
         <div class="socials">
             <h3>Follow us on Social</h3>
@@ -55,17 +90,17 @@
         </div>
         <div class="footer-nav">
             <ul>
-                <li class="button"><a href="#" class="wipe">get in touch</a></li>
-                <li class="button"><a href="#" class="wipe">about us</a></li>
-                <li class="button"><a href="#" class="wipe">trips</a></li>
-                <li class="button"><a href="#" class="wipe">photos</a></li>
-                <li class="button"><a href="#" class="wipe">what's next</a></li>
+                <li class="button"><a href="./NTgetintouch.html" class="wipe">get in touch</a></li>
+                <li class="button"><a href="./NTaboutus.html" class="wipe">about us</a></li>
+                <li class="button"><a href="./NTtrips.html" class="wipe">trips</a></li>
+                <li class="button"><a href="./NTphotos.html" class="wipe">photos</a></li>
+                <li class="button"><a href="./NTwhatsnext.html" class="wipe">what's next</a></li>
             </ul>
         </div>
-    
     </div>
     <div class="copyright">
         &#169; 2020, NeverlandTravelers
     </div>
+
 </body>
 </html>
